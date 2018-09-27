@@ -1,4 +1,4 @@
-module.exports = function longestConsecutiveLength(array) {
+module.exports = function longestConsecutiveLength(num) {
   // if array is empty, return 0
     if (num.length == 0) {
         return 0;
