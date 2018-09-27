@@ -1,6 +1,6 @@
 module.exports = function longestConsecutiveLength(array) {
-    let len = array.length,
-        count = 1,
+    const len = array.length;
+    let count = 1,
         sequenceLength = 0;
     if (len === 0) return 0;
     if (len === 1) return 1;
