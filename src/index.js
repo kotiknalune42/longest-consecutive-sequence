@@ -5,7 +5,7 @@ module.exports = function longestConsecutiveLength(array) {
     if (len === 0) return 0;
     if (len === 1) return 1;
 
-    array.sort(function(a, b) => a - b);
+    array.sort(function(a, b) return a - b);
 
     for (number in array) {
         let x = array[number],
